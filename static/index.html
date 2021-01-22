@@ -23,8 +23,9 @@
 	<div class="wrapper">
 		<nav id="sidebar" class="sidebar">
 			<div class="sidebar-content js-simplebar">
-				<a onclick='$pm.select("dashboard.html")' class="sidebar-brand" href="#">
-					<span class="align-middle">AdminKit</span>
+				<!-- <a onclick='$pm.select("dashboard.html")' class="sidebar-brand" href="#"> -->
+				<a href="#dashboard.html" class="sidebar-brand"></a>
+				<span class="align-middle">AdminKit</span>
 				</a>
 
 				<ul class="sidebar-nav">
@@ -32,47 +33,49 @@
 						Pages
 					</li>
 
-					<li id="dashboard.src" class="sidebar-item active">
-						<a class="sidebar-link" href="#">
+					<li id="dashboard.src" class="sidebar-item">
+						<a class="sidebar-link" href="#dashboard.html">
 							<i class="align-middle" data-feather="sliders"></i> <span
 								class="align-middle">Dashboard</span>
 						</a>
 					</li>
 
 					<li id="pages-profile.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#pages-profile.html">
 							<i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
 						</a>
 					</li>
 
 					<li id="pages-settings.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#pages-settings.html">
 							<i class="align-middle" data-feather="settings"></i> <span
 								class="align-middle">Settings</span>
 						</a>
 					</li>
 
 					<li id="pages-invoice.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#pages-invoice.html">
 							<i class="align-middle" data-feather="credit-card"></i> <span
 								class="align-middle">Invoice</span>
 						</a>
 					</li>
 
 					<li id="pages-blank.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#pages-blank.html">
 							<i class="align-middle" data-feather="book"></i> <span class="align-middle">Blank</span>
 						</a>
 					</li>
 
 					<li class="sidebar-item">
-						<a href="#auth" data-toggle="collapse" class="sidebar-link collapsed">
+						<a data-target="#auth" data-toggle="collapse" class="sidebar-link collapsed">
 							<i class="align-middle" data-feather="users"></i> <span class="align-middle">Auth</span>
 						</a>
 						<ul id="auth" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-							<li id="pages-sign-in.src" class="sidebar-item"><a class="sidebar-link" href="#">Sign In</a>
+							<li id="pages-sign-in.src" class="sidebar-item"><a class="sidebar-link"
+									href="#pages-sign-in.html">Sign In</a>
 							</li>
-							<li id="pages-sign-up.src" class="sidebar-item"><a class="sidebar-link" href="#">Sign Up</a>
+							<li id="pages-sign-up.src" class="sidebar-item"><a class="sidebar-link"
+									href="#pages-sign-up.html">Sign Up</a>
 							</li>
 						</ul>
 					</li>
@@ -86,22 +89,28 @@
 								Elements</span>
 						</a>
 						<ul id="ui" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-							<li id="ui-alerts.src" class="sidebar-item"><a class="sidebar-link" href="#">Alerts</a></li>
-							<li id="ui-buttons.src" class="sidebar-item"><a class="sidebar-link" href="#">Buttons</a>
+							<li id="ui-alerts.src" class="sidebar-item"><a class="sidebar-link"
+									href="#ui-alerts.html">Alerts</a></li>
+							<li id="ui-buttons.src" class="sidebar-item"><a class="sidebar-link"
+									href="#ui-buttons.html">Buttons</a>
 							</li>
-							<li id="ui-cards.src" class="sidebar-item"><a class="sidebar-link" href="#">Cards</a></li>
-							<li id="ui-general.src" class="sidebar-item"><a class="sidebar-link" href="#">General</a>
+							<li id="ui-cards.src" class="sidebar-item"><a class="sidebar-link"
+									href="#ui-cards.html">Cards</a></li>
+							<li id="ui-general.src" class="sidebar-item"><a class="sidebar-link"
+									href="#ui-general.html">General</a>
 							</li>
-							<li id="ui-grid.src" class="sidebar-item"><a class="sidebar-link" href="#">Grid</a></li>
-							<li id="ui-modals.src" class="sidebar-item"><a class="sidebar-link" href="#">Modals</a></li>
+							<li id="ui-grid.src" class="sidebar-item"><a class="sidebar-link"
+									href="#ui-grid.html">Grid</a></li>
+							<li id="ui-modals.src" class="sidebar-item"><a class="sidebar-link"
+									href="#ui-modals.html">Modals</a></li>
 							<li id="ui-typography.src" class="sidebar-item"><a class="sidebar-link"
-									href="#">Typography</a>
+									href="#ui-typography.html">Typography</a>
 							</li>
 						</ul>
 					</li>
 
 					<li id="icons-feather.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#icons-feather.html">
 							<i class="align-middle" data-feather="coffee"></i> <span class="align-middle">Icons</span>
 						</a>
 					</li>
@@ -112,16 +121,18 @@
 								class="align-middle">Forms</span>
 						</a>
 						<ul id="forms" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-							<li id="forms-layouts.src" class="sidebar-item"><a class="sidebar-link" href="#">Form
+							<li id="forms-layouts.src" class="sidebar-item"><a class="sidebar-link"
+									href="#forms-layouts.html">Form
 									Layouts</a>
 							</li>
-							<li id="forms-basic-inputs.src" class="sidebar-item"><a class="sidebar-link" href="#">Basic
+							<li id="forms-basic-inputs.src" class="sidebar-item"><a class="sidebar-link"
+									href="#forms-basic-inputs.html">Basic
 									Inputs</a></li>
 						</ul>
 					</li>
 
 					<li id="tables-bootstrap.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#tables-bootstrap.html">
 							<i class="align-middle" data-feather="list"></i> <span class="align-middle">Tables</span>
 						</a>
 					</li>
@@ -131,14 +142,14 @@
 					</li>
 
 					<li id="charts-chartjs.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#charts-chartjs.html">
 							<i class="align-middle" data-feather="bar-chart-2"></i> <span
 								class="align-middle">Charts</span>
 						</a>
 					</li>
 
 					<li id="maps-google.src" class="sidebar-item">
-						<a class="sidebar-link" href="#">
+						<a class="sidebar-link" href="#maps-google.html">
 							<i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
 						</a>
 					</li>
