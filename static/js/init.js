@@ -183,5 +183,8 @@ function onchange(pre, curr) {
 $pm.bindPages(pages, onchange);
 $pm.select("dashboard.html");
 $pm.listenRouter(function () {
-    window.scrollTo(0, 0)
+    if (!!url.router) {
+        window.scrollTo(0, 0)
+    }
+    $pm.select("dashboard.html");
 });
