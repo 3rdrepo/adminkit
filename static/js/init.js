@@ -185,6 +185,7 @@ $pm.select("dashboard.html");
 $pm.listenRouter(function () {
     if (!!url.router) {
         window.scrollTo(0, 0)
+    } else {
+        $pm.select("dashboard.html");
     }
-    $pm.select("dashboard.html");
 });
