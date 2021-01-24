@@ -46,12 +46,12 @@ let pages = [
         lazy: true,
         onshow: function () {
             $pm.element("sidebar").style.display = "none";
-            $pm.element("nav").style.display = "none";
+            $pm.element("header").style.display = "none";
             $pm.element("footer").style.display = "none";
         },
         onhide: function () {
             $pm.element("sidebar").style.display = "block";
-            $pm.element("nav").style.display = "block";
+            $pm.element("header").style.display = "block";
             $pm.element("footer").style.display = "block";
         },
     },
@@ -62,12 +62,12 @@ let pages = [
         lazy: true,
         onshow: function () {
             $pm.element("sidebar").style.display = "none";
-            $pm.element("nav").style.display = "none";
+            $pm.element("header").style.display = "none";
             $pm.element("footer").style.display = "none";
         },
         onhide: function () {
             $pm.element("sidebar").style.display = "block";
-            $pm.element("nav").style.display = "block";
+            $pm.element("header").style.display = "block";
             $pm.element("footer").style.display = "block";
         },
     },
