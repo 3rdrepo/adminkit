@@ -171,12 +171,12 @@ function onchange(pre, curr) {
     if (pre) {
         let preElem = $pm.element(pre.dst.replace("html", "src"));
         if (preElem) {
-            preElem.className = "sidebar-item";
+            preElem.classList.remove("active");
         }
     }
     let currElem = $pm.element(curr.dst.replace("html", "src"));
     if (currElem) {
-        currElem.className = "sidebar-item active";
+        currElem.classList.add("active");
     }
 }
 
